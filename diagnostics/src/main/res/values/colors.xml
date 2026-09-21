@@ -1,0 +1,11 @@
+<resources>
+    <color name="ink">#24323D</color>
+    <color name="muted">#667782</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="canvas">#F5F8F7</color>
+    <color name="primary">#357A78</color>
+    <color name="primary_dark">#285F5D</color>
+    <color name="accent_soft">#DFF1ED</color>
+    <color name="line">#DCE6E3</color>
+    <color name="launcher_background">#BFE6DC</color>
+</resources>

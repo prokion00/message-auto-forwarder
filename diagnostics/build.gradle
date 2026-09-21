@@ -1,0 +1,22 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.personal.messageforwarder.diagnostics'
+    compileSdk 37
+    defaultConfig {
+        applicationId 'com.personal.messageforwarder.diagnostics'
+        minSdk 36
+        targetSdk 36
+        versionCode 10
+        versionName '1.0'
+        testInstrumentationRunner 'com.personal.messageforwarder.diagnostics.AutoTests'
+    }
+}
+
+
+layout.buildDirectory = file(providers.gradleProperty('diagnosticBuildDir').getOrElse('build'))
+
+
+
+
+
+
