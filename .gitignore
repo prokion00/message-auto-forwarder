@@ -5,3 +5,4 @@ local.properties
 *.iml
 .idea/
 release/*.apk
+presentation/
